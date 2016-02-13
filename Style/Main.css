@@ -1,0 +1,74 @@
+	
+      /* Override some defaults */
+      html, body {
+        background-color: #ddd;
+        background-position: center;
+        background-repeat: repeat-y;
+        background-image: url(/Style/Images/grad.gif);
+        width:100%;
+      }
+	
+      .container > footer p {
+        text-align: center; /* center align it with the container */
+      }
+	
+      .container {
+        width: 750px; /* downsize our container to make the content feel a bit tighter and more cohesive. NOTE: this removes two full columns from the grid, meaning you only go to 14 columns and not 16. */
+
+      }
+      
+      hr 
+      {
+          margin:0;
+      }
+
+      /* The white background content wrapper */
+      .content {
+        background-color: #fff;
+        padding: 20px;
+        margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+        -webkit-border-radius: 0 0 6px 6px;
+           -moz-border-radius: 0 0 6px 6px;
+                border-radius: 0 0 6px 6px;
+        -webkit-box-shadow: 0 0px 50px rgba(255,255,255,1);
+           -moz-box-shadow: 0 0px 50px rgba(255,255,255,1);
+                box-shadow: 0 0px 50px rgba(255,255,255,1);
+         behavior: behavior: url(Script/PIE/PIE.php);
+      }
+
+      /* Page header tweaks */
+      .page-header {
+        background-color: #ffffff;
+        padding: 20px 20px 10px;
+        margin: -20px -20px 20px;
+      }
+	
+	label {
+		text-align:left;
+		font-weight:bold;
+	}
+	
+	.aDarkGreen {
+		color: green;
+	}
+	
+	.aLightGreen {
+		color: lime;
+	}
+	
+	.error {
+	
+	    border-color: #EE5F5B;
+		color: #B94A48;
+	
+	}
+	
+	.btn 
+	{
+	             behavior: behavior: url(Script/PIE/PIE.php);
+	}
+
+.page-header 
+{
+    border-bottom: 0 none white;
+}
